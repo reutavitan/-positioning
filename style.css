@@ -1,0 +1,115 @@
+* { box-sizing: border-box; margin: 0; padding: 0;
+.page {
+   height: 10%;
+   width: 100%;
+ margin: 0 auto;
+ border: 10px solid black ;
+
+}
+
+img{
+    height: 300px;
+    width: 500px;
+}
+nav {background-color: black;
+color: aliceblue;
+display: block;
+
+list-style: none
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid rgb(244, 233, 233);
+    border-bottom: 2px solid;
+}
+.flashes {
+    height: 140px;
+    width: 100%;
+    color: rgb(11, 6, 8);
+position: relative;
+
+    
+}
+.border{
+     border-top: 1px solid black;
+     margin: 20px;
+}
+.imgArticle{
+    position: absolute;
+    right: 60%;
+
+
+}
+.text {
+     position: absolute;
+     left: 50%;
+}
+
+
+}
+time {
+    background-color: rgb(252, 111, 111);
+    color: white;
+}
+.articles{
+    position: relative;
+    top: 30px;
+    
+}
+.title {
+    background-color: rgb(101, 98, 98);
+   color: white;
+   width: fit-content;
+   margin: 30px;
+
+}
+.text-red{
+    background-color: red;
+    color: white;
+    width: fit-content;
+    margin: 30px;
+}
+.content{
+    margin: 30px;
+}
+.signature{
+    
+    
+    bottom: -70px;
+    position: absolute;
+    margin: 30px;
+}
+.card{
+    display: inline-block;
+    height: 130px;
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(11, 4, 4);
+    color: rgb(11, 6, 8);
+    padding: 10px;
+    
+}
+header {
+    position: relative;
+    
+}
+.right{
+position: absolute; display: inline-block;
+}
+.left{
+   position: absolute;
+    left: 15px;
+
+
+}
+.button-right{
+    position: absolute;
+    left: 40px;
+    bottom: 5px;
+}
+.button-left{
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}
